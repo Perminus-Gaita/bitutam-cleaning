@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-950: #062615;
+  --color-brand-900: #0d431f;
+  --color-brand-800: #125a2b;
+  --color-brand-700: #177036;
+  --color-brand-600: #1e8a44;
+  --color-brand-500: #2aa457;
+  --color-lime-accent: #7bc144;
+  --color-sand: #f6f5f1;
+
+  --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --brand: #0d431f;
+  --brand-deep: #062615;
+  --lime: #7bc144;
+  --ink: #14171a;
+  --muted: #5c6660;
+  --sand: #f6f5f1;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: #ffffff;
+  color: var(--ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Diagonal brand cut used throughout the profile deck */
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 100% 82%, 0 100%);
+}
+.clip-diagonal-up {
+  clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+}
+.clip-corner {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 12% 100%, 0 88%);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.reveal {
+  animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    animation: none;
+  }
+}
+
+::selection {
+  background: var(--brand);
+  color: #fff;
+}
