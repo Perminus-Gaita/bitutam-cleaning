@@ -43,8 +43,9 @@ business, not this one.
 
 ## Gotchas
 
-- `+254 700 123 456` (from deck page 11) **looks like a dummy number**. Flagged to the user, not yet
-  confirmed. Same applies to the sister site.
+- Phone is `+254 720 447 964` (real number from the user, 2026-10-02 — the deck's `+254 700 123 456`
+  was a dummy). `info@bitutam.co.ke` is forwarded by ImprovMX to jthuranira@icloud.com. Shared with
+  the sister site. Live at https://cleaning.bitutam.co.ke.
 - Next.js image optimization is slow on a cold cache — a first-load screenshot will show blank
   images for ~10 seconds. This is not a bug. Warm with
   `curl "localhost:PORT/_next/image?url=%2Fimg%2FNAME.jpg&w=1920&q=75"` before screenshotting.

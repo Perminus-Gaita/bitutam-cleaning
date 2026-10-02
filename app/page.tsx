@@ -26,8 +26,8 @@ import {
   ClipboardIcon,
 } from "@/components/icons";
 
-const PHONE = "+254 700 123 456";
-const PHONE_HREF = "tel:+254700123456";
+const PHONE = "+254 720 447 964";
+const PHONE_HREF = "tel:+254720447964";
 const EMAIL = "info@bitutam.co.ke";
 
 /* ---------------------------------- bits ---------------------------------- */

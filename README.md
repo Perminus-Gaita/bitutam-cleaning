@@ -46,7 +46,7 @@ public/img/      28 photographs
 ## Content notes
 
 - Copy is taken verbatim from the company profile deck.
-- Contact details (`+254 700 123 456`, `info@bitutam.co.ke`) come from page 11 of the deck.
+- Contact details: `+254 720 447 964` (supplied by the client; the deck had a dummy) and `info@bitutam.co.ke`.
   **The phone number looks like a placeholder** — confirm before promoting the site.
 - Photography is a mix of the deck's own images and license-free stock (Unsplash).
 
